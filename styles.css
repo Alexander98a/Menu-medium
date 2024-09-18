@@ -1,0 +1,27 @@
+:root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    max-width: 1000px;
+    height: 4rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 3px solid black;
+    background-color: rgb(209, 206, 206);
+}
+
+nav img {
+    height: 50%;
+    margin: auto auto auto 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(141, 136, 136);
+    margin: 2rem;
+}
+nav a:hover {
+    background-color: rgb(71, 71, 71);
+}
